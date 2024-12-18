@@ -1,0 +1,41 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.parallax {
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.image1 {
+    background-image: url('image1.jpg');
+}
+
+.image2 {
+    background-image: url('image2.jpg');
+}
+
+.center-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.black-block {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 1.5rem;
+}
